@@ -1,0 +1,22 @@
+{
+  "name": "movies_starter",
+  "description": "",
+  "main": "",
+  "authors": [
+    "MaryannVasilyeva <marvas987@gmail.com>"
+  ],
+  "directory": "bower_components",
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Materialize": "materialize#^0.97.5"
+  }
+}
