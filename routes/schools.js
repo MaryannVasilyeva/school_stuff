@@ -23,7 +23,7 @@ router.post('/', function(req, res){
 
 //get a specific movie the mongoose.way
 router.get('/:id', function(req, res){
-	School.findById(req.params.id, function(err, schools){
+	School.findById(req.params.id, function(err, school){
 		res.render('school', { school: school });
 	});
 });

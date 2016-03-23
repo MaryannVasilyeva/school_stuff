@@ -7,7 +7,7 @@
   	  <header>
   		<% include ./partials/header %>
   	  </header>
-  	    <a href='/schools'>Back</a>
+  	    <a href='/schools' class='btn btn-waves'>Back</a>
   	    <h1 class='center'><%= school.title %></h1>
   	    <hr />
   	    <% var action = '/schools/edit/' + school.id %>
@@ -15,6 +15,7 @@
   	    	<input type='text' name='title' value=<%= school.title %> />
   	    	<input type='text' name='description' value=<%= school.description %> />
   	    	<button class='btn btn-waves'>Update</button>
+          <button class='btn btn-waves'>Delete Course</button>
   	    </form>
   	</body>
   </html>

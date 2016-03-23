@@ -11,7 +11,7 @@
    <hr />
    <div class='row'>
      <div class='col s12 m4'>
-       <h3>Add Movie</h3>
+       <h3>Add additional courses</h3>
        <form action='/schools' method='post'>
          <input type='text' name='title' placeholder='name' />
          <input type='text' name='description' placeholder='description' />
@@ -25,7 +25,7 @@
          <th>x</th>
        </thead>
        <tbody>
-         <% schools.forEach( function(movie) { %>
+         <% schools.forEach( function(school) { %>
            <% action = '/schools/' + school.id %>
            <tr>
              <td><a href=<%= action %>><%= school.title %></a></td>
