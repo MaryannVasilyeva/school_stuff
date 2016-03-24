@@ -12,7 +12,7 @@ router.get('/', function(req, res, next) {
  router.post('/', function(req, res){
  	new Comment({
  		comment: req.body.comment
- 	}).save(function( err, comment ){
+ 	}).save(function( err, comment){
  		res.redirect('/about');
  	});
  });
