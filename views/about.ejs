@@ -45,14 +45,10 @@
         <br/>
         <div class='col s12 m4 border'>
           <p>If you have additional questions or comments, please don't hesitate to call , email or fax us using the information provided above.</p>
-            <input type='text' name='comment' placeholder='Add your comment'></input>
-            <button onClick='myFunction()' class='btn btn-waves sendBtn' type='submit'>Send Comment
-            </button>
-            <script>
-              function myFunction() {
-                alert('The comment has been sent')
-              } 
-            </script>
+         <form action='/about' method='post'>
+          <input type='text' name='comment' placeholder='Add comment' />
+          <button class='btn btn-waves sendBtn' type='submit'>Send Comment</button>
+   </form>
         </div>
     </div>
   </body>
