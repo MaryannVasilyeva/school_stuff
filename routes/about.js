@@ -5,5 +5,8 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.render('about', { title: 'About' });
 });
+ 
+ //send a comment to the database
+
 
 module.exports = router;

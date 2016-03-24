@@ -1,6 +1,9 @@
 @import '../../bower_components/Materialize/dist/css/materialize.css';
 
+.border {
+	border: 1px solid green;
+}
 
-// *{
-// 	border: 1px solid black;
-// }
+.sendBtn {
+	margin-left: 130px;
+}

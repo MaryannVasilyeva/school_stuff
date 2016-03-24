@@ -15,7 +15,9 @@
   	    	<input type='text' name='title' value=<%= school.title %> />
   	    	<input type='text' name='description' value=<%= school.description %> />
   	    	<button class='btn btn-waves'>Update</button>
-          <button class='btn btn-waves'>Delete Course</button>
+           <form action=<%= action %> method='POST'>
+            <button class='btn waves-effect' type='submit'>Delete</button>
+          </form>
   	    </form>
   	</body>
   </html>
